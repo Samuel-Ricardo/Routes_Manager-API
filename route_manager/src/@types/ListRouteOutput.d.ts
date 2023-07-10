@@ -1,6 +1,6 @@
 import { LatLng } from './LatLng';
 
-export type ListRouteOutput = {
+export type ListRoutesOutput = {
   id: string;
   title: string;
   startPosition: LatLng;
