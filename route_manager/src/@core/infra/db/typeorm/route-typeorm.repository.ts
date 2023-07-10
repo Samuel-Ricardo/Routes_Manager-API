@@ -6,7 +6,7 @@ export class RouteTypeormRepository implements RouteRepositoryInterface {
   constructor(private repository: Repository<Route>) {}
 
   async insert(route: Route): Promise<void> {
-    this.repository.save(route);
+    this.repository.insert(route);
   }
 
   async findAll(): Promise<Route[]> {
