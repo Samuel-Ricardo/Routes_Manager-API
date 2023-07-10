@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import { RouteInMemoryRepository } from './route-in-memory.repository';
 import { RouteProps } from '@types';
 import { Route } from '../../../domain/route.entity';
