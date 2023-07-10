@@ -1,4 +1,5 @@
 import { LatLng, RouteProps } from '@types';
+import crypto from 'crypto';
 
 export class Route {
   public readonly id: string;
