@@ -1,4 +1,4 @@
-import { RouteProps } from '@types/RouteProps';
+import { LatLng, RouteProps } from '@types';
 
 export class Route {
   public readonly id: string;
