@@ -67,4 +67,11 @@ export class Route {
   private set points(value: LatLng[]) {
     this.props.points = value;
   }
+
+  toJSON() {
+    return {
+      id: this.id,
+      ...this.props,
+    };
+  }
 }
