@@ -30,6 +30,7 @@
     "@nestjs/typeorm": "^10.0.0",
     "@swc/core": "^1.3.68",
     "@swc/jest": "^0.2.26",
+    "crypto": "^1.0.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "reflect-metadata": "^0.1.13",
@@ -69,8 +70,9 @@
     "rootDir": "src",
     "testRegex": ".*\\.spec\\.ts$",
     "transform": {
-//      "^.+\\.(t|j)s$": "ts-jest"
-      "^.+\\.ts?$": ["@swc/jest"]
+      "^.+\\.ts?$": [
+        "@swc/jest"
+      ]
     },
     "collectCoverageFrom": [
       "**/*.(t|j)s"
