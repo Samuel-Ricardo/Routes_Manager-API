@@ -22,4 +22,17 @@ export class Route {
   public static create(props: RouteProps, id?: string): Route {
     return new Route(props, id);
   }
+
+  updateTitle(title: string) {
+    this.title = title;
+  }
+
+  updatePosition(startPosition: LatLng, endPosition: LatLng) {
+    this.startPosition = startPosition;
+    this.endPosition = endPosition;
+  }
+
+  updatePoints(points: LatLng[]) {
+    this.points = points;
+  }
 }
