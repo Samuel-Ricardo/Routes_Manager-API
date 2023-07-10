@@ -30,7 +30,8 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
