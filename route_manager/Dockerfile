@@ -4,4 +4,4 @@ WORKDIR /home/node/app
 
 COPY . ./
 
-RUN npm install
+RUN npm install && npm install sqlite3 --save
