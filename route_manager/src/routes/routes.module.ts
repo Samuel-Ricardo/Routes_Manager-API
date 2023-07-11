@@ -16,7 +16,6 @@ import { ListAllRoutesUseCase } from 'src/@core/application/list-all-routes.use-
   controllers: [RoutesController],
   providers: [
     RoutesService,
-
     {
       provide: RouteTypeormRepository,
       useFactory: (datasource: DataSource) =>
