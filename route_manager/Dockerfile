@@ -1,5 +1,7 @@
-FROM node:19.8.1-slim
+FROM node:18
 
 WORKDIR /home/node/app
 
-CMD ["npm", "run", "start:docker"]
+COPY . ./
+
+RUN npm install

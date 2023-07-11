@@ -6,7 +6,7 @@ export class Route {
   public props: Required<RouteProps>;
 
   private constructor(props: RouteProps, id?: string) {
-    this.id = id || crypto.randomUUID();
+    this.id = id || crypto?.randomUUID();
 
     if (!props) {
       //@ts-expect-error used for ORM
