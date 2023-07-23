@@ -67,6 +67,8 @@
   💻 | Application:
 </h2>
 
+<img src="https://miro.medium.com/v2/resize:fit:818/1*aGCx1q4rO5Uny9AauDCqyw.png"/>
+
 In @Core folder you can find the heart of the software where all business rules are applied, the idea is that you can pick this folder and put in any project that it still working without adaptations, the NestJS is just a implementation and is Nest that need to adapt to my @Core
 
 About the routes you can create and list Routes and store in SQLite Database (loca-storage)
