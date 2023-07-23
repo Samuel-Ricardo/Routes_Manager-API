@@ -33,11 +33,35 @@
 <h2>  | :artificial_satellite: About:  </h2>
 
 <p>
-    This API target is to explore a Clean Architeture implementation With NestJS Framework, fofr this, i build a traditional CRUD that manages Routes and apply some business rules using TypeORM and SQLite Database with a complete development ambient.
+    This API target is to explore a <b>Clean Architeture implementation</b> With NestJS Framework, fro this, i coded an traditional CRUD that manages Routes and apply some business rules using TypeORM and SQLite Database with a complete development ambient using Docker.
 </p>
 
 <br>
 
 <h2 id="techs">
   :building_construction: | Technologies and Concepts Studied:
+</h2>
+
+> <a href='https://nestjs.com/'> <img width="48px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain-wordmark.svg" /> </a>
+
+- NestJS - [Express]
+- TypeORM
+- SQLite
+- Swagger [Documentation]
+- JS | Typescript
+- Test | Jest
+- Docker
+- eslint
+- prettier
+- husky
+- lint-sataged
+
+> Among Others...
+
+<br>
+
+#
+
+<h2 id="app">
+  💻 | Application:
 </h2>
