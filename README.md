@@ -47,7 +47,7 @@
 - NestJS - [Express]
 - TypeORM
 - SQLite
-- Swagger [Documentation]
+- Swagger | [Documentation]
 - JS | Typescript
 - Test | Jest
 - Docker
@@ -55,6 +55,7 @@
 - prettier
 - husky
 - lint-sataged
+- @swc | [Rust Compiler]
 
 > Among Others...
 
@@ -64,4 +65,42 @@
 
 <h2 id="app">
   💻 | Application:
+</h2>
+
+In @Core folder you can find the heart of the software where all business rules are applied, the idea is that you can pick this folder and put in any project that it still working without adaptations, the NestJS is just a implementation and is Nest that need to adapt to my @Core
+
+About the routes you can create and list Routes and store in SQLite Database (loca-storage)
+
+Application use the powerfull swc a fast rust compiler and a complete dev ambient, code formater and verify code errors, automated tests and Docker contaieners
+
+<p id="routes"/>
+
+> API Example:
+
+```bash
+$ route_manager > api.http
+
+GET http://localhost:3000/prefixo/hello
+
+###
+GET http://localhost:3000/routes
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "title": "minha rota",
+    "startPosition": { "lat": 0, "lng": 1 },
+    "endPosition": { "lat": 2, "lng": 3 }
+}
+
+```
+
+#
+
+<br>
+
+<h2 id="run-project"> 
+   👨‍💻 | How to use
 </h2>
